@@ -1,0 +1,171 @@
+body{
+    background: ghostwhite;
+    color: dimgray;
+    font-family: 'Quicksand', serif;
+    text-align: center;
+    }
+    h1{font-size: 200%;}
+    #container {
+    margin: 5% auto;
+    border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+    text-align: center;
+    }
+    .box{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    padding: 0px;
+    }
+    span{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    padding: 0px;
+    margin: 5px;
+    margin-left: -35px;
+    }
+    .top{border-top: none;}
+    .bottom{border-bottom: none;}
+    .left{border-left: none;}
+    .right{border-right: none;}
+    .alert{
+    height: 75px;
+    width : 125px;
+    display: inline-block;
+    background: ghostwhite;
+    position: relative;
+    z-index: 7;
+    margin-top: -50%;
+    border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;
+    box-shadow: 0 0 75px 2px dimgray;
+    animation: larger 0.5s; -webkit-animation: larger 0.5s; -moz-animation: larger 0.5s;
+    animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards;
+    box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+    padding:30px;
+    bottom: 50px;
+    top: 0px;
+    }
+    @keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}
+    @-webkit-keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}
+    @-moz-keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}
+    @-o-@keyframes larger{ from{height: 75px; width: 125px;} to{height: 100px;width: 250px;}}
+    button{
+    background: dimgray;
+    border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+    color: ghostwhite;
+    border: none;
+    outline: none;
+    }
+    button:focus{background: silver;}
+    .activeBox{background: silver;}
+
+    /* body {
+        background-color: white;
+      }
+      
+      .grid {
+        background-color: rgba(0,0,0,.2);
+        margin: 50px auto;
+        vertical-align: center;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template rows: 1fr 1fr 1fr;
+        grid-gap: 2px;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
+      }
+      
+      .space {
+        background-color: white;
+        transition: background-color .5s;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .space:hover {
+        background-color: rgba(0,0,0,0);
+        transition: background-color .5s;
+        cursor: pointer;
+      }
+      
+      .x, .o {
+       font-family: 'arial';
+       font-size: 70px;
+       position: absolute;
+      }
+      
+      .x {
+        color: tomato;
+      }
+      
+      .o {
+        color: #33DBFF;
+      }
+      
+      .header {
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        color: tomato;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .reset {
+        font-size: 20px;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        color: tomato;
+        background-color: white;
+        border: 1px solid tomato;
+        padding: 5px;
+        transition: border, color, .5s;
+      }
+      
+      .reset:hover {
+        cursor: pointer;
+        color: #33DBFF;
+        border: 1px solid #33DBFF;
+        transition: border, color, .5s;
+      }
+      
+      .reset:focus {
+        outline: none;
+      }
+      
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+      
+      .p1, .p2 {
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+      }
+      
+      .p1 {
+        color: tomato;
+        margin-left: 20px;
+      }
+      
+      .p2 {
+        color: #33DBFF;
+        margin-right: 20px;
+      }
+      
+      .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      } */
