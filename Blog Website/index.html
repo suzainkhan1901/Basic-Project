@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">Post 1</a></li>
+                <li><a href="#post2">Post 2</a></li>
+                <li><a href="#post3">Post 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="post1" class="blog-post">
+            <h2>Blog Post Title 1</h2>
+            <p class="date">Published on: <span>2023-10-01</span></p>
+            <img height="400px" src="post1.jpg" alt="Post 1 Image">
+            <p>This is the content of the first blog post. It discusses various interesting topics.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <div id="comments1"></div>
+                <input type="text" id="name1" placeholder="Your Name">
+                <textarea id="comment1" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(1)">Submit Comment</button>
+            </div>
+        </article>
+
+        <article id="post2" class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p class="date">Published on: <span>2023-10-02</span></p>
+            <img height="400px" src="post2.webp" alt="Post 2 Image">
+            <p>This is the content of the second blog post. It covers different engaging themes.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <div id="comments2"></div>
+                <input type="text" id="name2" placeholder="Your Name">
+                <textarea id="comment2" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(2)">Submit Comment</button>
+            </div>
+        </article>
+
+        <article id="post3" class="blog-post">
+            <h2>Blog Post Title 3</h2>
+            <p class="date">Published on: <span>2023-10-03</span></p>
+            <img height="400px" src="post3.jpg" alt="Post 3 Image">
+            <p>This is the content of the third blog post. It elaborates on various topics of interest.</p>
+            <div class="comments">
+                <h3>Comments</h3>
+                <div id="comments3"></div>
+                <input type="text" id="name3" placeholder="Your Name">
+                <textarea id="comment3" placeholder="Your Comment"></textarea>
+                <button onclick="addComment(3)">Submit Comment</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 My Blog. All rights reserved.</p>
+        <p> suzainkhan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
