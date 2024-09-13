@@ -1,0 +1,39 @@
+<!-- interactive-infographic/
+│
+├── index.html
+├── styles.css
+└── script.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Internet Usage Statistics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Global Internet Usage Statistics</h1>
+            <p>Explore the data on Internet usage worldwide.</p>
+        </header>
+        
+        <section class="data-visualization">
+            <h2>Internet Users by Region</h2>
+            <canvas id="usageChart"></canvas>
+            <div id="tooltip" class="tooltip"></div>
+        </section>
+        
+        <section class="interaction">
+            <h2>Explore More</h2>
+            <button id="toggleData">Toggle Data</button>
+        </section>
+    </div>
+    <footer> 
+        <div class="copyright">Copyright &copy; 2024 All Rights Reserved by <br> <a href="https://t.me/shziiikhan" style="color: #1b61a1;"> codewithsuzain<br></a></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
