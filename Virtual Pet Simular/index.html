@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Pet Simulator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Virtual Pet Simulator</h1>
+        <div class="pet">
+            <img id="petImage" src="pet-happy.jpeg" alt="Virtual Pet">
+        </div>
+        <div class="status">
+            <div class="attribute">
+                <label>Hunger:</label>
+                <progress id="hunger" value="100" max="100"></progress>
+            </div>
+            <div class="attribute">
+                <label>Happiness:</label>
+                <progress id="happiness" value="100" max="100"></progress>
+            </div>
+            <div class="attribute">
+                <label>Energy:</label>
+                <progress id="energy" value="100" max="100"></progress>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="feedButton">Feed</button>
+            <button id="playButton">Play</button>
+            <button id="sleepButton">Sleep</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
